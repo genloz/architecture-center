@@ -25,34 +25,34 @@ _Example: A user browses 20 products in 30 seconds – clickstream data flows in
 
 **3. Microsoft Fabric Eventstream**
 The Eventstream allows you to bring real-time events into Fabric, transform them, and then route them to various destinations without writing any code. 
-_Example: Automatically enrich clickstream data with product metadata before routing to analytics. _
+_Example: Automatically enrich clickstream data with product metadata before routing to analytics._
 
 ### Storage and Querying
 **4. Eventhouse**
 Real-time event data is stored here and queried using the Kusto Query Language (KQL).  
-_Example: Query all purchases of “wireless headphones” in the last 5 minutes across Melbourne stores. _
+_Example: Query all purchases of “wireless headphones” in the last 5 minutes across Melbourne stores._
 
 **5. Lakehouse (optional)**
 Data is made available for additional use cases such as synching to external systems or SQL endpoint compatibility via the Lakehouse. 
-_Example: Run monthly sales trend analysis using SQL on historical data.  _
+_Example: Run monthly sales trend analysis using SQL on historical data._
 
 ### Action Systems
 **6. KQL Queryset**
 KQL Analytics supports data discovery through time-series analysis, text parsing, geospatial queries, vector similarity search, anomaly detection, outlier detection, pattern discovery, creation of statistical models and more.   
-_Example: Detect anomalies in checkout behaviour – eg sudden cart abandonment spikes _
+_Example: Detect anomalies in checkout behaviour – eg sudden cart abandonment spikes_
 
 **7. Real-time Dashboards and Power BI**
 Visualise insights and actions in near real time.   
-_Example: Store managers view live dashboards showing top-selling items and customer sentiment. _ 
+_Example: Store managers view live dashboards showing top-selling items and customer sentiment._ 
 
 **8.Data Activator**
 Monitors live streams and triggers actions based on patterns. Data Activator can monitor at various stages including from the Eventstream as part of ingestion or from the reporting layer. Actions include Teams notifications, email, Fabric items (such as running a pipeline or notebook) or Power Automate flows. 
-_Example: If a product’s stock drops below threshold, trigger a restock workflow. _
+_Example: If a product’s stock drops below threshold, trigger a restock workflow._
 
 ### AI Capabilities
 **9. AI Data Agent**
 Data Agents expose the data connected to Eventhouse for conversational experience against real time data. Copilot Studio can be leveraged to expose this chat experience directly in Teams, or AI Foundry can be used for app-based chat experiences.  
-_Example: Provide natural language interface for store managers to ask “What are the top selling items in the last 5 minutes?” _
+_Example: Provide natural language interface for store managers to ask “What are the top selling items in the last 5 minutes?”_
 
 ### Security and Governance
 Security and governance are foundational to this architecture: 
@@ -69,7 +69,7 @@ Security and governance are foundational to this architecture:
 * **Conditional Access and Private Networking**
 
 ## Common Challenges Resolved
-1. **Latency and Scalability Bottlenecks **
+1. **Latency and Scalability Bottlenecks**
 RTI enables sub-second latency for streaming analytics, allowing organisations to ingest and process billions of events per day without manual scaling.  It supports automatic scaling and low-latency ingestion from diverse sources like IoT devices, telemetry systems, and customer interactions. 
 
 **2. Fragmented Data Streams**
