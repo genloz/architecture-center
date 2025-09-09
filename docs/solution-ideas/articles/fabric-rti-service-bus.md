@@ -69,7 +69,7 @@ Security and governance are foundational to this architecture:
 * **Conditional Access and Private Networking**
 
 ## Common Challenges Resolved
-1. **Latency and Scalability Bottlenecks**
+**1. Latency and Scalability Bottlenecks**
 RTI enables sub-second latency for streaming analytics, allowing organisations to ingest and process billions of events per day without manual scaling.  It supports automatic scaling and low-latency ingestion from diverse sources like IoT devices, telemetry systems, and customer interactions. 
 
 **2. Fragmented Data Streams**
